@@ -201,3 +201,13 @@ body.dark select {
     font-weight: 400px;
     margin: 0 auto;
 }
+
+.dark-mode {
+    background-color: #fff;
+    border: none;
+}
+
+body.dark .dark-mode {
+    background-color: #000;
+    border: none;
+}

@@ -5,6 +5,8 @@ import pause from "./img/pause.png";
 import playing from "./img/play.png";
 import lupa from "./img/iconoir_search.png";
 import sad from "./img/sad.png";
+import sun from "./img/sun.png";
+import moon from "./img/dark-mode.png";
 
 const fonts = ["Sans Serif", "Serif", "Mono"];
 
@@ -86,8 +88,8 @@ export default function APP() {
               </option>
             ))}
           </select>
-          <button onClick={() => setDark(!dark)}>
-            {dark ? "Light Mode" : "Dark Mode"}
+          <button onClick={() => setDark(!dark)} className="dark-mode">
+            <img src={dark ? sun : moon} alt="mode" width={30} />
           </button>
         </ul>
       </nav>
