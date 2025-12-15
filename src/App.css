@@ -211,3 +211,99 @@ body.dark .dark-mode {
     background-color: #000;
     border: none;
 }
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .nav-ul {
+    flex-direction: row; 
+    gap: 16px;
+  }
+
+  .center {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  .keybord {
+    font-size: 40px;
+  }
+
+  .sinonim {
+    font-size: 20px;
+  }
+
+  .center-2 {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .etc {
+    width: 100%;
+  }
+
+  .chiziq {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  nav {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .nav-ul {
+    flex-direction: row; 
+    gap: 12px;
+  }
+
+  .keybord {
+    font-size: 32px;
+  }
+
+  .sinonim {
+    font-size: 18px;
+  }
+
+  .search {
+    height: 56px;
+    font-size: 16px;
+  }
+
+  .search::placeholder {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .center-2 {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+  .etc {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .chiziq {
+    width: 100%;
+  }
+}
