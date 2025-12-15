@@ -1,0 +1,203 @@
+nav {
+  width: 738px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+ul li::marker {
+  color: #8f19e8;
+}
+
+.search {
+  width: 100%; 
+  height: 64px;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  padding-left: 16px;
+  padding-right: 48px; 
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.search::placeholder {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+.center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 58px;
+}
+
+.container {
+  width: 737px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.keybord {
+  font-size: 64px;
+  font-weight: 700;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-family: "Sans Serif", sans-serif;
+  background-color: #fff;
+  color: #111;
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.audio-button {
+  border: none;
+  background-color: #fff;
+}
+.sinonim {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 400;
+  color: #a445ed;
+}
+
+.noun {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.chiziq {
+  width: 656px;
+  height: 1px;
+  background-color: #e9e9e9;
+}
+
+.etc {
+  margin-bottom: 13px;
+  width: 714px;
+  line-height: 1.5;
+}
+
+.center-2 {
+  width: 762px;
+  margin: 0 auto;
+}
+
+.lupa {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+body.dark {
+  background-color: #000;
+  color: #f1f1f1;
+}
+
+body.dark .search {
+  background-color: #000;
+  color: #f1f1f1;
+}
+
+body.dark .search::placeholder {
+  color: #ccc;
+}
+
+body.dark .container {
+  background-color: #000;
+}
+
+body.dark .keybord {
+  color: #f1f1f1;
+}
+
+body.dark .sinonim {
+  color: #c17aff;
+}
+
+body.dark .noun {
+  color: #f1f1f1;
+}
+
+body.dark .chiziq {
+  background-color: #333;
+}
+
+body.dark .etc {
+  color: #f1f1f1;
+}
+
+body.dark .audio-button {
+  background-color: #000;
+}
+
+body.dark nav {
+  background-color: #000;
+}
+
+body.dark .nav-ul h2 {
+  color: #f1f1f1;
+}
+
+body.dark button {
+  background-color: #000;
+  color: #f1f1f1;
+}
+
+body.dark select {
+    background-color: #000;
+    color: white;
+}
+
+.select {
+    border: none;
+}
+
+.loading {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.pal {
+    width: 736px;
+    font-weight: 400px;
+    margin: 0 auto;
+}
